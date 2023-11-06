@@ -1,0 +1,257 @@
+.SignIn-SignUp-container{
+    width: auto;
+    height: 500px;
+    background-color: rgb(199, 199, 199);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+}
+
+.SignIn-wrap{
+    /* padding: 10px 20px 10px 20px; */
+    /* background-color: red; */
+    height: 500px;
+    width: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.SignUp-wrap{
+    /* padding: 10px 20px 10px 20px; */
+    /* background-color: blueviolet; */
+    display: none;
+    height: 500px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.SignIn-detail{
+    width: 500px;
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.SignUp-detail{
+    width: 500px;
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.SignIn-wrap>.decoration-ss{
+    width: 500px;
+    height: 100%;
+    margin-left: 30px;
+    background-image: url('../../assets/image/dress_02.png');
+    background-size: 100% 100%;
+    border-radius: 0 15px 15px 0;
+}
+
+.SignUp-wrap>.decoration-ss{
+    width: 500px;
+    height: 100%;
+    margin-right: 30px;
+    background-image: url('../../assets/image/dress_02.png');
+    background-size: 100% 100%;
+    border-radius: 0 15px 15px 0;
+}
+
+.decoration-ss>.decoration-text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.decoration-ss>.img-decoration{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px 0 0 calc((100% - 100px) / 2);
+}
+
+.header-ss{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+.field-ss{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+}
+
+.field-ss>.wrap-fieldtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field-ss>.wrap-fieldtext>.name{
+    font-size: 20px;
+    width: 150px;
+}
+
+.field-ss>.wrap-fieldtext>.input-bar{
+    width: calc(100% - 100px);
+}
+
+.field-ss>.wrap-fieldtext>.input-bar>.input{
+    width: 100%;
+    height: 35px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+
+.field-ss>.wrap-fieldtext>.input-bar>.input>.input-text{
+    width: 80%;
+    height: 60%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    border: none;
+    outline: unset;
+    background-color: rgb(223, 223, 223);
+}
+
+.field-ss>.wrap-fieldtext+.wrap-fieldtext{
+    margin-top: 30px;
+}
+
+.footer-ss{
+    width: 100%;
+    height: 300px;
+    /* background-color: aquamarine; */
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.footer-ss>.more-infor-signin{
+    width: 250px;
+    /* background-color: blue; */
+    margin-left: calc((100% - 250px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-ss>.more-infor-signin>.forget-pass{
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer-ss>.more-infor-signin>.forget-pass:hover{
+    color: white;
+}
+
+.footer-ss>.more-infor-signin>.transfrom-to-signup>.btn-transform-signup-form{
+    /* width: 50px; */
+    margin-top: 8px;
+    border: none;
+    outline: unset;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-ss>.more-infor-signin>.transfrom-to-signup>.btn-transform-signup-form:hover{
+    color: white;
+}
+
+.footer-ss>.gmail-signin{
+    width: 70%;
+    height: 50px;
+    background-color: greenyellow;
+    margin-left: calc(30% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: aqua;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer-ss>.gmail-signin>.title-signin{
+    font-size: 18px;
+    margin: 0 20px 0 20px;
+}
+
+.footer-ss>.facebook-signin{
+    width: 70%;
+    height: 50px;
+    background-color: greenyellow;
+    margin-left: calc(30% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.footer-ss>.facebook-signin>.title-signin{
+    font-size: 18px;
+    margin: 0 20px 0 20px;
+}
+
+.footer-ss>.btn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: unset;
+    margin: 20px 0 0 calc((100% - 150px) / 2);
+    cursor: pointer;
+}
+
+.footer-ss>.btn:hover{
+    background-color: rgb(52, 219, 163);
+    color: white;
+}
+
+.footer-ss>.transfrom-to-signin{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc((100% - 200px) / 2);
+    margin-bottom: 20px;
+}
+
+.footer-ss>.transfrom-to-signin>.btn-transfrom-signin-form{
+    margin-top: 10px;
+    outline: unset;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-ss>.transfrom-to-signin>.btn-transfrom-signin-form:hover{
+    color: white;
+}

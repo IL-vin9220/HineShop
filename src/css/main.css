@@ -1,0 +1,47 @@
+@import url(./layout/header.css);
+@import url(./layout/menu.css);
+@import url(./layout/content.css);
+
+*{
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../assets/fonts/Gilroy-Light.woff);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../assets/fonts/Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../assets/fonts/Gilroy-Medium.woff);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../assets/fonts/Gilroy-Regular.woff);
+}
+
+@font-face {
+    font-family: Gilroy-Heavy;
+    src: url(../assets/fonts/Gilroy-Heavy.woff);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

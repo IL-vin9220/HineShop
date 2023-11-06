@@ -1,0 +1,98 @@
+.categorydetail-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 223, 223);
+}
+
+.header-cate{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-cate-left{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-cate-right{
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.header-cate-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-cate-name{}
+
+.maincontent-cate{
+    overflow-y: scroll;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px);
+    flex-wrap: wrap;
+}
+
+.maincontent-cate>.transfrom-to-detail-product{
+    /* width: 220px;
+    height: 320px; */
+}
+
+.product-category{
+    width: 200px;
+    height: 300px;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.image-product{
+    background-image: url('../../assets/image/cardigan_01.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+}
+
+.detail-product{
+    width: 100%;
+    /* height: ; */
+}
+
+.transform-to-detail-product{
+    text-decoration: none;
+    color: black;
+}
+
+.detail-product>.product-name{
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.detail-product>.cost-product{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.detail-product>.cost-product>.money-product{
+    color: red;
+}
+
+.detail-product>.cost-product>.sell-count-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

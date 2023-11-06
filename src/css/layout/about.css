@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-about{
+    position: relative;
+    width: 50vw;
+    height: 40vw;
+    background-color: red;
+    left: 30%;
+}
+
+.name-about{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.decoration-hineshop{
+    width: 100%;
+    height: 50%;
+}
+
+.decoration-hineshop>span{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.thanks-to-customer{
+    width: 100%;
+    height: 25%;
+}
+
